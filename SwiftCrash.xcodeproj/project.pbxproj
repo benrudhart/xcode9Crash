@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5B448921F02ACB500F96E53 /* Xcode9Crash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B448911F02ACB500F96E53 /* Xcode9Crash.swift */; };
 		B5C8FE601F02A82400988F8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8FE5F1F02A82400988F8C /* AppDelegate.swift */; };
 		B5C8FE621F02A82400988F8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8FE611F02A82400988F8C /* ViewController.swift */; };
 		B5C8FE651F02A82400988F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C8FE631F02A82400988F8C /* Main.storyboard */; };
 		B5C8FE671F02A82400988F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C8FE661F02A82400988F8C /* Assets.xcassets */; };
 		B5C8FE6A1F02A82400988F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C8FE681F02A82400988F8C /* LaunchScreen.storyboard */; };
-		B5C8FE721F02A83600988F8C /* Xcode9Crash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8FE711F02A83600988F8C /* Xcode9Crash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5B448911F02ACB500F96E53 /* Xcode9Crash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Xcode9Crash.swift; sourceTree = "<group>"; };
 		B5C8FE5C1F02A82400988F8C /* SwiftCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C8FE5F1F02A82400988F8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5C8FE611F02A82400988F8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		B5C8FE661F02A82400988F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5C8FE691F02A82400988F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5C8FE6B1F02A82400988F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5C8FE711F02A83600988F8C /* Xcode9Crash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Xcode9Crash.swift; path = ../../SwiftSigabort/SwiftSigabort/Xcode9Crash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				B5C8FE661F02A82400988F8C /* Assets.xcassets */,
 				B5C8FE681F02A82400988F8C /* LaunchScreen.storyboard */,
 				B5C8FE6B1F02A82400988F8C /* Info.plist */,
-				B5C8FE711F02A83600988F8C /* Xcode9Crash.swift */,
+				B5B448911F02ACB500F96E53 /* Xcode9Crash.swift */,
 			);
 			path = SwiftCrash;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C8FE621F02A82400988F8C /* ViewController.swift in Sources */,
-				B5C8FE721F02A83600988F8C /* Xcode9Crash.swift in Sources */,
+				B5B448921F02ACB500F96E53 /* Xcode9Crash.swift in Sources */,
 				B5C8FE601F02A82400988F8C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +212,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -261,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -316,6 +316,7 @@
 				B5C8FE701F02A82400988F8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
